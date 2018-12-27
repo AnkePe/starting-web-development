@@ -9,6 +9,7 @@ section {
     margin: auto;
     text-align: center;
     padding: 25px;
+    border-bottom: 2px solid lightgrey ;
     
     
 }
@@ -30,8 +31,7 @@ h2 {
 h3 {
     color: grey;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    
+    font-size: 30px;    
 }
 
 p {
@@ -40,10 +40,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     line-height: 1.8;
-}
-
-em {
-    font-weight: bold;
+    text-align: justify;
 }
 
 nav{
@@ -91,11 +88,11 @@ article{
     
 }
 
-.filmuitleg{
-    flex-basis: 75%; 
+.main{
+    flex: 75%; 
 }
-.meerUitleg{
-      
+.side{
+    flex: 25%;  
 }
 
 img {
@@ -109,4 +106,14 @@ img {
     border: 5px solid lightgrey;
     padding: 0px;
 }   
-    
+
+.button{
+    background-color:  rgb(226, 52, 52);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; 
+    font-weight: bold;   
+    padding: 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
