@@ -1,0 +1,112 @@
+body {
+    background-color: lightgrey;
+    }
+
+section {
+    width: 50%;
+    background-color: white;
+    margin: 100px 0px;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    
+    
+}
+
+h1 {
+    color: rgb(226, 52, 52);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    padding: 15px;
+
+}
+h2 {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding: 15px;
+}
+
+h3 {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    
+}
+
+p {
+    margin: 0px 40px 5px 40px;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+em {
+    font-weight: bold;
+}
+
+nav{
+    text-align: center;
+    
+}
+
+nav li{
+    display: inline-block;
+    padding: 20px 50px;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+/* status links 
+a:link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:visited{
+    text-decoration: underline;    
+}
+
+a:hover{
+    text-decoration: none;
+    color: lightgrey;
+}
+a:active{
+    text-decoration: none;
+    color: grey;
+    }
+*/
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.filmuitleg{
+    flex-basis: 75%; 
+}
+.meerUitleg{
+      
+}
+
+img {
+    padding: 20px;
+}
+/*beginfoto*/
+.rondeFoto{
+    height:auto;
+    width:200px;
+    border-radius: 200px;
+    border: 5px solid lightgrey;
+    padding: 0px;
+}   
+    
