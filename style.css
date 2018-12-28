@@ -9,8 +9,7 @@ section {
     margin: auto;
     text-align: center;
     padding: 25px;
-    border-bottom: 2px solid lightgrey ;
-    
+    border-bottom: 2px solid lightgrey ;    
     
 }
 
@@ -44,8 +43,7 @@ p {
 }
 
 nav{
-    text-align: center;
-    
+    text-align: center;    
 }
 
 nav li{
@@ -60,34 +58,14 @@ a{
     text-decoration: none;
     color: grey;
 }
-/* status links 
-a:link{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-a:visited{
-    text-decoration: underline;    
-}
-
-a:hover{
-    text-decoration: none;
-    color: lightgrey;
-}
-a:active{
-    text-decoration: none;
-    color: grey;
-    }
-*/
 
 article{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    
+    align-items: center;
+    margin-bottom: 50px;    
 }
-
 .main{
     flex: 75%; 
 }
@@ -96,7 +74,9 @@ article{
 }
 
 img {
-    padding: 20px;
+    padding: 20px 0px;
+    width: 100px;
+    height: auto;
 }
 /*beginfoto*/
 .rondeFoto{
@@ -116,4 +96,8 @@ img {
     padding: 15px;
     display: inline-block;
     border-radius: 5px;
+}
+
+span{
+    background-color: lightgrey;
 }
